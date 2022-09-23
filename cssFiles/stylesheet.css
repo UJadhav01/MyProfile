@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: large;
     margin: 0 auto;
 }
@@ -13,12 +13,12 @@ body{
 }
 a{  
     text-decoration: none;  
-    color: blue;  
+    color:black;  
     font-size: 20px;  
     padding: 8px;  
 }  
 a:hover{  
-    color: green;  
+    color: blue;  
 }  
 h3{
     color: rgb(167, 25, 25);
