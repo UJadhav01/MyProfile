@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: large;
@@ -10,15 +11,24 @@ body{
     background-color:rgb(231, 240, 248);  
     padding:10px;  
     border-radius:5px;  
+
+}
+.hedaerdiv a i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+.hedaerdiv a span{
+    font-style: italic;
 }
 a{  
     text-decoration: none;  
     color:black;  
     font-size: 20px;  
     padding: 8px;  
+    margin-right: 50px;
 }  
 a:hover{  
-    color: blue;  
+    color:  green;  
 }  
 h3{
     color: rgb(167, 25, 25);
@@ -32,6 +42,34 @@ iframe{
 fieldset{
     width: 400px;
 }
+.home_lists{
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    
+  }
+
+      .home_lists li {
+      
+        margin-bottom: 10px;
+        padding-left: 1.5em;
+        position: relative;
+      }
+      .home_lists li:after{
+        content: "";
+            width: 0;
+            height: 0;
+            position: absolute;
+            display: block;
+            border-top: 5px solid transparent;
+            border-left: 25px solid rgb(129, 37, 37);
+            border-bottom: 5px solid transparent;
+            top: 0.25em;
+            left: 0;
+        } 
+        .home_lists li span{
+            margin-left: 10px;
+        }
+
 .permain{
     display:flex;
     justify-content: center;
@@ -39,7 +77,51 @@ fieldset{
 table,th,td,tr{
     border: 1px solid red;
     border-collapse: collapse;
+    padding: 10px;
 }
 #rating{
     color: green;
+}
+dl .dd_lists{
+    margin-top: 10px;
+}
+.edu{
+    margin-left: 10px;
+}
+.edu_detail{
+    font-size: large;
+    font-weight: bold;
+}
+.edu_li li{
+    margin-top: 10px;
+}
+/*BUTTONS*/
+.btn{
+    font-size:large;
+    padding: 5px;
+    width: 170px;
+    text-align: center;
+    border: 2px solid #56a5eb;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 26px 0 rgba(86,185,235,0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+footer .followme_label{
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(167, 25, 25);
+    margin-right:15px;
+}
+.footer_font_icon{
+    color: cornflowerblue;
+    border-radius: 50%;
 }
