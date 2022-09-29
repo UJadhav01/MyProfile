@@ -11,7 +11,13 @@ body{
     background-color:rgb(231, 240, 248);  
     padding:10px;  
     border-radius:5px;  
+    color: black;
+    font-weight: 700;
+    text-shadow:2px 2px 5px #c536c5;
 
+}
+.hedaerdiv a:hover{
+text-decoration: underline;
 }
 .hedaerdiv a i{
     margin-right: 10px;
@@ -69,6 +75,9 @@ fieldset{
         .home_lists li span{
             margin-left: 10px;
         }
+        .home_lists li span::selection{
+            background: #3ef0e1;
+        }
 
 .permain{
     display:flex;
@@ -108,6 +117,8 @@ dl .dd_lists{
     background-color: white;
     margin-top: 20px;
     margin-left: 80px;
+    box-shadow: 0 6px 26px 0 rgba(86,185,235,0.5);
+
 }
 .btn:hover{
     cursor: pointer;
