@@ -8,16 +8,18 @@ body{
     overflow: hidden;
     text-align: right;
     border: 1px solid rgb(231, 240, 248);  
-    background-color:rgb(231, 240, 248);  
-    padding:10px;  
+    /*background-color:rgb(231, 240, 248); */ 
+    padding: 10px; 
     border-radius:5px;  
     color: black;
     font-weight: 700;
     text-shadow:2px 2px 5px #c536c5;
-display: block;
-position: fixed;
-width: 100%;
-transform: none
+    background-color:rgb(231, 240, 248);  
+
+    display: block;
+    position: fixed;
+    width: 100%;
+    transform: none
 }
 .hedaerdiv1 a:hover{
 text-decoration: underline;
@@ -26,22 +28,37 @@ text-decoration: underline;
     margin-right: 10px;
     font-size: 25px;
 }
+.hedaerdiv  hr{
+    position: absolute;
+    top: 40px;
+    height: 1px;
+    background-color: rgb(4, 4, 4);
+    border: none;
+    width: 100%;
+}
 
-.hedaerdiv{
-    display: block;
-position: fixed;
-width: 100%;
-transform: none;
-top: 65px;
-    overflow: hidden;
-    text-align: left;
-    border: 1px solid rgb(231, 240, 248);  
+.hedaerdiv nav ul{
+    list-style: none;
+    position: relative;
+    top: 45px;
+
+}
+.hedardiv nav ul li a{
+    display: inline-block;
+}
+
+.hedaerdiv nav ul{
+
     background-color:rgb(231, 240, 248);  
-    padding:10px;  
-    border-radius:5px;  
     color: black;
     font-weight: 700;
     text-shadow:2px 2px 5px #c536c5;
+    display: flex;
+    height: 80vh;
+    width: 17vw;
+    flex-direction: column;
+    justify-content: space-around;
+    float: left;
 
 }
 .hedaerdiv a:hover{
@@ -66,16 +83,20 @@ a:hover{
 }  
 h3{
     color: rgb(167, 25, 25);
+    margin-left: 20px;
+}
+
+p,h4,dl{
+    margin-left: 20px;  
 }
 iframe{
-    top: 100px;
-    position: relative;
-    border: none;
-    text-align: justify;
-    margin-left: 20px;
-    margin-right: 30px;
-    /*border: 1px solid black;*/
     
+display:inline-block;
+width: 1200px;
+height: 570px;
+position: relative;
+top: 65px;
+border: 1px solid black; 
 }
 fieldset{
     width: 400px;
@@ -114,6 +135,9 @@ fieldset{
 .permain{
     display:flex;
     justify-content: center;
+}
+table{
+    margin-left: 25px;
 }
 table,th,td,tr{
     border: 1px solid red;
